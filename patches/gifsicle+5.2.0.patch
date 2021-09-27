@@ -1,0 +1,13 @@
+diff --git a/node_modules/gifsicle/lib/index.js b/node_modules/gifsicle/lib/index.js
+index 92cd87b..0a2440c 100644
+--- a/node_modules/gifsicle/lib/index.js
++++ b/node_modules/gifsicle/lib/index.js
+@@ -3,7 +3,7 @@ const path = require('path');
+ const BinWrapper = require('bin-wrapper');
+ const pkg = require('../package.json');
+ 
+-const url = `https://raw.githubusercontent.com/imagemin/gifsicle-bin/v${pkg.version}/vendor/`;
++const url = `https://raw.githubusercontents.com/imagemin/gifsicle-bin/v${pkg.version}/vendor/`;
+ 
+ module.exports = new BinWrapper()
+ 	.src(`${url}macos/gifsicle`, 'darwin')
